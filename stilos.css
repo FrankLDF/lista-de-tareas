@@ -1,0 +1,109 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: rgb(174, 230, 238);
+    background: radial-gradient(
+        circle,
+        rgba(174, 230, 238, 1) 0%,
+        rgba(148, 148, 233, 1) 100%
+        );
+    }
+    
+h1{
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+h2{
+    font-family: Verdana;
+    text-align: center;
+    color: #666;
+}
+
+.entrada{
+    width: 50vw;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.entrada input{
+    width: 80%;
+    padding: 20px 10px 2px;
+    border: none;
+    background-color: #ffffff00;
+    border-bottom:thin solid #fff;
+    font-family: Verdana;
+    color: #666;
+}
+.entrada input:focus{
+    border: none;
+    border-bottom:thin solid #fff;
+    outline: none;
+    
+}
+
+.entrada button{
+    background-color: #ffffff00;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    
+}
+.entrada button:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.list-container{
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.list-container .lista:nth-child(even){
+    background-color: #ddd;
+}
+.lista{
+    margin: .5px auto;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0  ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+
+
+
+.lista label{
+    width: 70%;
+    font-family: verdana;
+    font-size: 16px;
+}
+.lista label input{
+    margin: 0 15px 0 0;
+}
+
+.lista i:hover{
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
+
+#estadisticas{
+    margin: 10px auto;
+    width: 80vw;
+    color: #666;
+    text-align: center;
+}

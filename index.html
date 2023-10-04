@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Lista de Tareas</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/ea9cfe85a3.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+    <h1>FrankLDF</h1>
+    <h2>Crea tu lista de pendientes para hoy!</h2>
+    <div class="entrada">
+        <input id="textoUser" type="text" placeholder="Escribe alguna tarea" autofocus>
+        <button class="agregar" id="agregar" title="Agregar tarea">+</button>
+    </div>
+
+    <div class="list-container" id="list-container">
+        <!-- <div class="lista" id="lista">
+            <label>
+                <input type="checkbox" id="chequed">
+                Tarea de ejemplo
+            </label>
+            <i class="fa-solid fa-trash-can" id="borrar"></i> -->
+        </div>
+    </div>
+    <div id="estadisticas">
+        <!-- <p class="estadisticas">Tareas Pendientes: 0   Tareas completadas: 0  </p> -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

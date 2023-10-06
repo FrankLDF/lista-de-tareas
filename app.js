@@ -18,6 +18,12 @@ divPadre.addEventListener("click", (event) => {
   }
 });
 
+inputTex.addEventListener('keypress', (ev) => {
+  if (ev.keyCode === 13) {
+    agregar();
+  }
+});
+
 //Creacion de funciones
 function agregar() {
     if (inputTex.value != "") {
